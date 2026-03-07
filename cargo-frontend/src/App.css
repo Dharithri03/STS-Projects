@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.App-logo {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+form {
+  margin: 20px auto;
+  width: 300px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* ===== Add Navbar Links Styling ===== */
+nav a {
+  color: white;             /* make navbar links white */
+  text-decoration: none;    /* remove underline */
+  margin: 0 10px;           /* spacing between links */
+  font-weight: bold;         /* optional, looks better */
+}
+
+nav a:hover {
+  color: #ffd700;           /* optional hover color (gold) */
+  text-decoration: underline;
+}
